@@ -1,0 +1,88 @@
+.container {
+    float: none;
+    margin: 0 auto;
+    width: 60%;
+}
+body {
+    background-image: url('../images/background.jpg');
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    float: left;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.58);
+    height: 100vh;
+}
+h1,h2 {
+    text-align: left;
+    font-family: "Open Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    font-family: "Open Sans";
+}
+thead {
+    background: #D9EDF6;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+tfoot {
+    background: #a1dbf5;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+tfoot tr td {
+    padding: 10px 10px;
+    font-size: 14px;
+}
+thead tr th {
+    padding: 10px 10px;
+}
+tbody {
+    text-align: left;
+    font-size: 13px;
+}
+tbody tr td,tbody tr th {
+    padding: 10px 10px;
+}
+tbody tr.odd {
+    background: #F3F3F3;
+}
+tbody tr.even {
+    background: #F9F9F9;
+}
+tbody tr:hover {
+    cursor: pointer;
+    background: #f0f8ff;
+}
+table.your-purchases {
+    width: 65%;
+    float: left;
+}
+.discount {
+    float: left;
+    width: 33%;
+    margin-left: 2%;
+    color: #fff;
+    text-align: center;
+    font-family: "Open Sans";
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 45px;
+}
